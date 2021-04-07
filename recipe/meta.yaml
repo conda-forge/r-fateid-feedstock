@@ -22,13 +22,14 @@ build:
 
 requirements:
   build:
-    - {{ posix }}zip              # [win]
+    - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-rcolorbrewer
     - r-rtsne
     - r-lle
     - r-locfit
+    - r-matrixstats
     - r-pheatmap
     - r-princurve
     - r-randomforest
@@ -40,6 +41,7 @@ requirements:
     - r-rtsne
     - r-lle
     - r-locfit
+    - r-matrixstats
     - r-pheatmap
     - r-princurve
     - r-randomforest
@@ -53,10 +55,11 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=FateID
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Application of 'FateID' allows computation and visualization of cell fate bias for multi-lineage single cell transcriptome data. Herman, J.S., Sagar, Grün D. (2018) <DOI:10.1038/nmeth.4662>.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
