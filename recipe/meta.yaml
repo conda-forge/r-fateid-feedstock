@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/FateID_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/FateID/FateID_{{ version }}.tar.gz
-  sha256: 6610dc1742e884ff68478ec5af7f1fb832c53c393d821b6e595e5bba9a1263db
+  sha256: 1399845635713fd8b51705cc9551b66447f0f21ad2d59e479ce4fc2fa2049cd6
 
 build:
   merge_build_host: true  # [win]
