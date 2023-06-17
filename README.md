@@ -1,11 +1,11 @@
-About r-fateid
-==============
+About r-fateid-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fateid-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=FateID
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fateid-feedstock/blob/main/LICENSE.txt)
 
 Summary: Application of 'FateID' allows computation and visualization of cell fate bias for multi-lineage single cell transcriptome data. Herman, J.S., Sagar, Grün D. (2018) <DOI:10.1038/nmeth.4662>.
 
